@@ -33,9 +33,12 @@ body {
 }
 
 .container {
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
   padding: 3rem;
-  margin: 2rem;
+  font-size: 2rem;
 }
 
 .sec {
@@ -54,6 +57,20 @@ body {
   cursor: pointer;
   margin-right: 1.5rem;
   margin-top: 3rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+section {
+  width: 40rem;
+  height: 40rem;
+  border: 1px solid var(--color-text);
+  padding: 2rem;
 }
 
 /* body {
