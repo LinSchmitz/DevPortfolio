@@ -4,7 +4,7 @@ A sleek, modern personal portfolio website to showcase my projects, skills, and 
 
 ## ✨ Demo
 
-🌐 [Live Website](https://your-domain.vercel.app)
+🌐 [Live Website](https://linschmitz.github.io/DevPortfolio/)
 
 ## 📸 Screenshots
 
