@@ -23,9 +23,37 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background-color: #0f0f0f; /* Dark background */
-  background-image: radial-gradient(#2e2e2e 1px, transparent 1px);
+  background-color: var(--color-background-900); /* Dark background */
+  color: var(--color-text);
+  background-image: radial-gradient(
+    var(--color-background-100) 1px,
+    transparent 1px
+  );
   background-size: 20px 20px; /* spacing between dots */
+}
+
+.container {
+  font-size: 2rem;
+  padding: 3rem;
+  margin: 2rem;
+}
+
+.sec {
+  display: flex;
+  gap: 2rem;
+}
+
+.socials {
+  border: #212529;
+}
+
+.btn {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-right: 1.5rem;
+  margin-top: 3rem;
 }
 
 /* body {
